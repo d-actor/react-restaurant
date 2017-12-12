@@ -38,7 +38,7 @@ const NavBar = () => (
     </Menu.Item>
 
     <Menu.Item name='Menu'>
-      <NavLink activeStyle={styles.activeNav} to='/menu'>Menu</NavLink>
+      <NavLink activeStyle={styles.activeNav} to='/dashboard'>Menu</NavLink>
     </Menu.Item>
     { authLinks() }
   </Menu>
