@@ -1,5 +1,5 @@
 50.times do
-  Menu.create (
+  Menu.create(
     item: Faker::Food.dish,
     description: Faker::Lorem.sentence,
     price: Faker::Commerce.price.to_f,
